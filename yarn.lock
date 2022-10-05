@@ -3314,13 +3314,6 @@ commander@^2.14.1, commander@^2.20.0, commander@^2.9.0:
   resolved "https://registry.npmjs.org/commander/-/commander-2.20.3.tgz"
   integrity sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==
 
-comment-parser@^0.4.2:
-  version "0.4.2"
-  resolved "https://registry.npmjs.org/comment-parser/-/comment-parser-0.4.2.tgz"
-  integrity sha512-MXiziwGzPopasDbc8g1pk7xxemubCbLdoS7l/nRKPpBvys8PbH/HEY5DybYgCF13V5DAjL9Q+NCkxg4Kjjt77A==
-  dependencies:
-    readable-stream "^2.0.4"
-
 commondir@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npmjs.org/commondir/-/commondir-1.0.1.tgz"
@@ -4092,29 +4085,6 @@ eslint-config-wordpress@^2.0.0:
   resolved "https://registry.npmjs.org/eslint-config-wordpress/-/eslint-config-wordpress-2.0.0.tgz"
   integrity sha512-9ydUZ1zORI3av5EOx4zQml8WpdDx1bAOZC4dLPcYGqVcdBol3dQ2L40e2ill52k/+I+rqUJppGzWK+zP7+lI1w==
 
-eslint-plugin-i18n@~1.2.0:
-  version "1.2.3"
-  resolved "https://registry.npmjs.org/eslint-plugin-i18n/-/eslint-plugin-i18n-1.2.3.tgz"
-  integrity sha512-Y4fRPiB/qhbt9OekKTB7axiHwWWrBeeoROqD3kXKvyePiJtgeXij4xX0lyrSJudvqw7WFdsOC4YpgrhuwnIndw==
-
-eslint-plugin-jsdoc@~3.5.0:
-  version "3.5.0"
-  resolved "https://registry.npmjs.org/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-3.5.0.tgz"
-  integrity sha512-qoNpVicVWGjGBXAJsqRoqVuAnajgX7PWtSa2Men36XKRiXe3RS/QmRv215PXZwo4OHskYOsUoJUeiPiWtS9ULA==
-  dependencies:
-    comment-parser "^0.4.2"
-    lodash "^4.17.4"
-
-eslint-plugin-node@~6.0.1:
-  version "6.0.1"
-  resolved "https://registry.npmjs.org/eslint-plugin-node/-/eslint-plugin-node-6.0.1.tgz"
-  integrity sha512-Q/Cc2sW1OAISDS+Ji6lZS2KV4b7ueA/WydVWd1BECTQwVvfQy5JAi3glhINoKzoMnfnuRgNP+ZWKrGAbp3QDxw==
-  dependencies:
-    ignore "^3.3.6"
-    minimatch "^3.0.4"
-    resolve "^1.3.3"
-    semver "^5.4.1"
-
 eslint-plugin-react@^7.11.1:
   version "7.31.8"
   resolved "https://registry.npmjs.org/eslint-plugin-react/-/eslint-plugin-react-7.31.8.tgz"
@@ -4135,23 +4105,12 @@ eslint-plugin-react@^7.11.1:
     semver "^6.3.0"
     string.prototype.matchall "^4.0.7"
 
-"eslint-plugin-wordpress@https://github.com/WordPress-Coding-Standards/eslint-plugin-wordpress#a650f73e2461ddae0faec900c0199b3c258cb5da":
+eslint-plugin-wordpress@^0.1.0:
   version "0.1.0"
-  resolved "git+ssh://git@github.com/WordPress-Coding-Standards/eslint-plugin-wordpress.git#a650f73e2461ddae0faec900c0199b3c258cb5da"
-  integrity sha512-OYo64wVZb7wTFzreHrDzH5T9/IpX/yxLznOmszY0C+F2/TT342d4I0HlCJSyoWttRHDKrQl9KnW22LpohNRIsA==
+  resolved "https://registry.yarnpkg.com/eslint-plugin-wordpress/-/eslint-plugin-wordpress-0.1.0.tgz#3e696f09326d9915e266881ab148fed281611762"
+  integrity sha512-CsTMkRasfEzguT5BD53yQbvwEeBuRPUYbsIRs3s/qzrRyw1t0QXo5xYwdsVv9Wf4grLej2TOJvaAHsOPF0+bvw==
   dependencies:
-    eslint-plugin-i18n "~1.2.0"
-    eslint-plugin-jsdoc "~3.5.0"
-    eslint-plugin-node "~6.0.1"
-    eslint-plugin-wpcalypso "~4.0.1"
-    merge "~1.2.0"
-
-eslint-plugin-wpcalypso@~4.0.1:
-  version "4.0.2"
-  resolved "https://registry.npmjs.org/eslint-plugin-wpcalypso/-/eslint-plugin-wpcalypso-4.0.2.tgz"
-  integrity sha512-XqsgUlz4kiPppuZBjMMUtcPRsLduxfRBrrBpGGipxQpwCYp1+yPBOwjk17WrR/BeHEw/RJ9+Xrt+F8vrRv2qBw==
-  dependencies:
-    requireindex "^1.1.0"
+    requireindex "~1.1.0"
 
 eslint-scope@^4.0.3:
   version "4.0.3"
@@ -4966,11 +4925,6 @@ iferr@^0.1.5:
   resolved "https://registry.npmjs.org/iferr/-/iferr-0.1.5.tgz"
   integrity sha512-DUNFN5j7Tln0D+TxzloUjKB+CtVu6myn0JEFak6dG18mNt9YkQ6lzGCdafwofISZ1lLF3xRHJ98VKy9ynkcFaA==
 
-ignore@^3.3.6:
-  version "3.3.10"
-  resolved "https://registry.npmjs.org/ignore/-/ignore-3.3.10.tgz"
-  integrity sha512-Pgs951kaMm5GXP7MOvxERINe3gsaVjUWFm+UZPSq9xYriQAksyhg0csnS0KXSNRD5NmNdapXEpjxG49+AKh/ug==
-
 ignore@^4.0.6:
   version "4.0.6"
   resolved "https://registry.npmjs.org/ignore/-/ignore-4.0.6.tgz"
@@ -5729,7 +5683,7 @@ lodash.uniq@^4.5.0:
   resolved "https://registry.npmjs.org/lodash.uniq/-/lodash.uniq-4.5.0.tgz"
   integrity sha512-xfBaXQd9ryd9dlSDvnvI0lvxfLJlYAZzXomUYzLKtUeOQvOP5piqAWuGtrhWeqaXK9hhoM/iyJc5AV+XfsX3HQ==
 
-lodash@^4.0.1, lodash@^4.1.1, lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.21, lodash@^4.17.4, lodash@^4.17.5:
+lodash@^4.0.1, lodash@^4.1.1, lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.21, lodash@^4.17.5:
   version "4.17.21"
   resolved "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
@@ -5861,11 +5815,6 @@ memory-fs@^0.5.0:
   dependencies:
     errno "^0.1.3"
     readable-stream "^2.0.1"
-
-merge@~1.2.0:
-  version "1.2.1"
-  resolved "https://registry.npmjs.org/merge/-/merge-1.2.1.tgz"
-  integrity sha512-VjFo4P5Whtj4vsLzsYBu5ayHhoHJ0UqNm7ibvShmbmoz7tGi0vXaoJbGdB+GmDMLUdg8DpQXEIeVDAe8MaABvQ==
 
 micromatch@^3.0.4, micromatch@^3.1.10, micromatch@^3.1.4, micromatch@^3.1.8:
   version "3.1.10"
@@ -7531,7 +7480,7 @@ reactcss@^1.2.0:
   dependencies:
     lodash "^4.0.1"
 
-"readable-stream@1 || 2", readable-stream@^2.0.0, readable-stream@^2.0.1, readable-stream@^2.0.2, readable-stream@^2.0.4, readable-stream@^2.1.5, readable-stream@^2.2.2, readable-stream@^2.3.3, readable-stream@^2.3.6, readable-stream@~2.3.6:
+"readable-stream@1 || 2", readable-stream@^2.0.0, readable-stream@^2.0.1, readable-stream@^2.0.2, readable-stream@^2.1.5, readable-stream@^2.2.2, readable-stream@^2.3.3, readable-stream@^2.3.6, readable-stream@~2.3.6:
   version "2.3.7"
   resolved "https://registry.npmjs.org/readable-stream/-/readable-stream-2.3.7.tgz"
   integrity sha512-Ebho8K4jIbHAxnuxi7o42OrZgF/ZTNcsZj6nRKyUmkhLFq8CHItp/fy6hQZuZmP/n3yZ9VBUbp4zz/mX8hmYPw==
@@ -7746,10 +7695,10 @@ require-main-filename@^2.0.0:
   resolved "https://registry.npmjs.org/require-main-filename/-/require-main-filename-2.0.0.tgz"
   integrity sha512-NKN5kMDylKuldxYLSUfrbo5Tuzh4hd+2E8NPPX02mZtn1VuREQToYe/ZdlJy+J3uCpfaiGF05e7B8W0iXbQHmg==
 
-requireindex@^1.1.0:
-  version "1.2.0"
-  resolved "https://registry.npmjs.org/requireindex/-/requireindex-1.2.0.tgz"
-  integrity sha512-L9jEkOi3ASd9PYit2cwRfyppc9NoABujTP8/5gFcbERmo5jUoAKovIC3fsF17pkTnGsrByysqX+Kxd2OTNI1ww==
+requireindex@~1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/requireindex/-/requireindex-1.1.0.tgz#e5404b81557ef75db6e49c5a72004893fe03e162"
+  integrity sha512-LBnkqsDE7BZKvqylbmn7lTIVdpx4K/QCduRATpO5R+wtPmky/a8pN1bO2D6wXppn1497AJF9mNjqAXr6bdl9jg==
 
 reselect@^4.0.0:
   version "4.1.6"
@@ -7786,7 +7735,7 @@ resolve-url@^0.2.1:
   resolved "https://registry.npmjs.org/resolve-url/-/resolve-url-0.2.1.tgz"
   integrity sha512-ZuF55hVUQaaczgOIwqWzkEcEidmlD/xl44x1UZnhOXcYuFN2S6+rcxpG+C1N3So0wvNI3DmJICUFfu2SxhBmvg==
 
-resolve@^1.12.0, resolve@^1.13.1, resolve@^1.14.2, resolve@^1.19.0, resolve@^1.3.3:
+resolve@^1.12.0, resolve@^1.13.1, resolve@^1.14.2, resolve@^1.19.0:
   version "1.22.1"
   resolved "https://registry.npmjs.org/resolve/-/resolve-1.22.1.tgz"
   integrity sha512-nBpuuYuY5jFsli/JIs1oldw6fOQCBioohqWZg/2hiaOybXOft4lonv85uDOKXdf8rhyK159cxU5cDcK/NKk8zw==
@@ -7968,7 +7917,7 @@ semver-compare@^1.0.0:
   resolved "https://registry.npmjs.org/semver-compare/-/semver-compare-1.0.0.tgz"
   integrity sha512-YM3/ITh2MJ5MtzaM429anh+x2jiLVjqILF4m4oyQB18W7Ggea7BfqdH/wGMK7dDiMghv/6WG7znWMwUDzJiXow==
 
-semver@^5.4.1, semver@^5.5.0, semver@^5.5.1, semver@^5.6.0:
+semver@^5.5.0, semver@^5.5.1, semver@^5.6.0:
   version "5.7.1"
   resolved "https://registry.npmjs.org/semver/-/semver-5.7.1.tgz"
   integrity sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ==

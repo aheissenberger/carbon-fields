@@ -44,7 +44,7 @@
     "eslint": "^5.8.0",
     "eslint-config-wordpress": "^2.0.0",
     "eslint-plugin-react": "^7.11.1",
-    "eslint-plugin-wordpress": "https://github.com/WordPress-Coding-Standards/eslint-plugin-wordpress#a650f73e2461ddae0faec900c0199b3c258cb5da",
+    "eslint-plugin-wordpress": "^0.1.0",
     "husky": "^7.0.1",
     "lint-staged": "^8.1.0",
     "mini-css-extract-plugin": "^0.4.4",
